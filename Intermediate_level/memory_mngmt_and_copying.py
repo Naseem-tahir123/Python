@@ -63,6 +63,8 @@ menu = ["chowmein", "fried rice", ["Coke", "Sprite"]]
 
 shallow_copied_menu = copy.copy(menu) # Creating a shallow copy
 
+print(id(menu) == id(shallow_copied_menu))
+
 # Proof 1: The containers are different
 print(menu is shallow_copied_menu) # False, different objects
 print(menu == shallow_copied_menu) # True, same content

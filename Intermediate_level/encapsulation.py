@@ -5,7 +5,7 @@
     internal state of an object.
 
 1. Access Modifiers in Python:
-    Unlike Java or C++ python does't enforce strict privace. It relies on Convention and Name Mangling.
+    Unlike Java or C++ python does't enforce strict privacy. It relies on Convention and Name Mangling.
     --> Public (name): Accessible from anywhere
     --> Protected (_name): Start with one underscore. Convention: "Please don't touch this outside
         the class or its children."

@@ -4,7 +4,7 @@
     This is the fundamental concept.
     => class: The Blueprint or template. It defines what something looks like and do. 
               It does't exist in physical world yet.
-    => object: The Instance. The instance. The actual house built from the blueprint. 
+    => object: The Instance.  The actual house built from the blueprint. 
                 you can built 1000 houses(objects) from single blueprint(class).
 """
 

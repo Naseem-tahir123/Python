@@ -4,7 +4,7 @@ The "Disposible" Funcition
 1. lambda funcition:
     A lambda is a small, anonymous function defined in one line.
     => Syntax: lambda arguments : expression
-    => Rule: Use them for simple logic that you only need once. it it's  complex, write a read def.
+    => Rule: Use them for simple logic that you only need once. if it's  complex, write a read def.
 
 """
 

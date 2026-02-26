@@ -86,7 +86,8 @@ def logger(func):
 def process_data(*args: int):
     return list(filter(lambda x : x> 10, args))
 
-process_data(1,20,3,40)
+s = process_data(1,20,3,40)
+print(s)
  
   
  
