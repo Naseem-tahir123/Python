@@ -1,11 +1,20 @@
-                            # Bubble Sort Implementation
+# arr = [6,3,5,9,8,11,1]
+# n = len(arr)
+# for i in range(n-1):
+#     for j in range(n-i-1):
+#         if arr[j] >  arr[j+1]:
+#             arr[j], arr[j+1] = arr[j+1], arr[j]
 
-nums = [4,53,2,6,1,8,7,9,10]
+# print(f"Sorted array: {arr}")
 
-for i in range(len(nums) - 1):
-    print(i)
-    for j in range(len(nums)-i-1):
-        if nums[j]>nums[j+1]:
-            nums[j] , nums[j+1] = nums[j+1] , nums[j]
-
-print(f"sorted numbers are: {nums}")
+array = [9,4,7,3,8,11,2,1]
+n = len(array)
+for i in range(n-1):
+    swaped = False
+    for j in range(n-i-1):
+        if array[j] > array[j+1]:
+            array[j], array[j+1] = array[j+1] , array[j]
+            swaped = True
+    if not swaped:
+        break
+print(f"sorted array is {array}")
